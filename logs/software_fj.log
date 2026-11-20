@@ -133,3 +133,84 @@
 2026-11-04 08:43:29,560 | INFO     | Procesamiento de reserva -> OK
 2026-11-04 08:43:29,561 | ERROR    | Creación de reserva -> ServicioNoDisponibleError: 'Alquiler Portátil' no está disponible.
 2026-11-04 08:43:29,561 | ERROR    | Cancelación de reserva -> OperacionNoPermitidaError: No se puede cancelar una reserva PROCESADA.
+2026-11-20 03:14:00,245 | INFO     | Registro de cliente -> OK
+2026-11-20 03:14:00,246 | ERROR    | Registro de cliente -> ClienteInvalidoError: Correo inválido: 'luis-sin-arroba'
+2026-11-20 03:14:00,246 | ERROR    | Registro de cliente -> ParametroFaltanteError: Nombre, documento, correo y teléfono son obligatorios.
+2026-11-20 03:14:00,246 | INFO     | Registro de cliente -> OK
+2026-11-20 03:14:00,246 | INFO     | Creación de servicio ReservaSala -> OK
+2026-11-20 03:14:00,246 | ERROR    | Creación de servicio AlquilerEquipo -> ServicioInvalidoError: La tarifa por hora debe ser un número positivo.
+2026-11-20 03:14:00,246 | INFO     | Creación de servicio AlquilerEquipo -> OK
+2026-11-20 03:14:00,246 | INFO     | Creación de servicio AsesoriaEspecializada -> OK
+2026-11-20 03:14:00,246 | INFO     | Creación de reserva -> OK
+2026-11-20 03:14:00,246 | INFO     | Reserva #9 confirmada
+2026-11-20 03:14:00,247 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:14:00,247 | INFO     | Reserva #9 procesada. Total: $314,160.00
+2026-11-20 03:14:00,247 | INFO     | Fin del intento de procesamiento de reserva #9
+2026-11-20 03:14:00,247 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:14:00,247 | ERROR    | Creación de reserva -> ServicioInvalidoError: Una sala se reserva entre 1 y 12 horas.
+2026-11-20 03:14:00,247 | INFO     | Creación de reserva -> OK
+2026-11-20 03:14:00,247 | ERROR    | Fallo al procesar reserva #11: La reserva debe estar CONFIRMADA para procesarse.
+2026-11-20 03:14:00,247 | INFO     | Fin del intento de procesamiento de reserva #11
+2026-11-20 03:14:00,247 | ERROR    | Procesamiento de reserva -> ReservaInvalidaError: No fue posible procesar la reserva #11. (causa: La reserva debe estar CONFIRMADA para procesarse.)
+2026-11-20 03:14:00,247 | INFO     | Creación de reserva -> OK
+2026-11-20 03:14:00,247 | INFO     | Reserva #12 confirmada
+2026-11-20 03:14:00,247 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:14:00,247 | INFO     | Reserva #12 procesada. Total: $385,560.00
+2026-11-20 03:14:00,247 | INFO     | Fin del intento de procesamiento de reserva #12
+2026-11-20 03:14:00,247 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:14:00,247 | ERROR    | Creación de reserva -> ServicioNoDisponibleError: 'Alquiler Portátil' no está disponible.
+2026-11-20 03:14:00,247 | ERROR    | Cancelación de reserva -> OperacionNoPermitidaError: No se puede cancelar una reserva PROCESADA.
+2026-11-20 03:16:33,090 | INFO     | Registro de cliente -> OK
+2026-11-20 03:16:33,090 | ERROR    | Registro de cliente -> ClienteInvalidoError: Correo inválido: 'luis-sin-arroba'
+2026-11-20 03:16:33,090 | ERROR    | Registro de cliente -> ParametroFaltanteError: Nombre, documento, correo y teléfono son obligatorios.
+2026-11-20 03:16:33,090 | INFO     | Registro de cliente -> OK
+2026-11-20 03:16:33,091 | INFO     | Creación de servicio ReservaSala -> OK
+2026-11-20 03:16:33,091 | ERROR    | Creación de servicio AlquilerEquipo -> ServicioInvalidoError: La tarifa por hora debe ser un número positivo.
+2026-11-20 03:16:33,091 | INFO     | Creación de servicio AlquilerEquipo -> OK
+2026-11-20 03:16:33,091 | INFO     | Creación de servicio AsesoriaEspecializada -> OK
+2026-11-20 03:16:33,091 | INFO     | Creación de reserva -> OK
+2026-11-20 03:16:33,091 | INFO     | Reserva #9 confirmada
+2026-11-20 03:16:33,091 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:16:33,091 | INFO     | Reserva #9 procesada. Total: $314,160.00
+2026-11-20 03:16:33,091 | INFO     | Fin del intento de procesamiento de reserva #9
+2026-11-20 03:16:33,091 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:16:33,091 | ERROR    | Creación de reserva -> ServicioInvalidoError: Una sala se reserva entre 1 y 12 horas.
+2026-11-20 03:16:33,091 | INFO     | Creación de reserva -> OK
+2026-11-20 03:16:33,092 | ERROR    | Fallo al procesar reserva #11: La reserva debe estar CONFIRMADA para procesarse.
+2026-11-20 03:16:33,092 | INFO     | Fin del intento de procesamiento de reserva #11
+2026-11-20 03:16:33,092 | ERROR    | Procesamiento de reserva -> ReservaInvalidaError: No fue posible procesar la reserva #11. (causa: La reserva debe estar CONFIRMADA para procesarse.)
+2026-11-20 03:16:33,092 | INFO     | Creación de reserva -> OK
+2026-11-20 03:16:33,092 | INFO     | Reserva #12 confirmada
+2026-11-20 03:16:33,092 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:16:33,092 | INFO     | Reserva #12 procesada. Total: $385,560.00
+2026-11-20 03:16:33,092 | INFO     | Fin del intento de procesamiento de reserva #12
+2026-11-20 03:16:33,092 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:16:33,092 | ERROR    | Creación de reserva -> ServicioNoDisponibleError: 'Alquiler Portátil' no está disponible.
+2026-11-20 03:16:33,092 | ERROR    | Cancelación de reserva -> OperacionNoPermitidaError: No se puede cancelar una reserva PROCESADA.
+2026-11-20 03:21:09,794 | INFO     | Registro de cliente -> OK
+2026-11-20 03:21:09,794 | ERROR    | Registro de cliente -> ClienteInvalidoError: Correo inválido: 'luis-sin-arroba'
+2026-11-20 03:21:09,794 | ERROR    | Registro de cliente -> ParametroFaltanteError: Nombre, documento, correo y teléfono son obligatorios.
+2026-11-20 03:21:09,794 | INFO     | Registro de cliente -> OK
+2026-11-20 03:21:09,795 | INFO     | Creación de servicio ReservaSala -> OK
+2026-11-20 03:21:09,795 | ERROR    | Creación de servicio AlquilerEquipo -> ServicioInvalidoError: La tarifa por hora debe ser un número positivo.
+2026-11-20 03:21:09,795 | INFO     | Creación de servicio AlquilerEquipo -> OK
+2026-11-20 03:21:09,795 | INFO     | Creación de servicio AsesoriaEspecializada -> OK
+2026-11-20 03:21:09,795 | INFO     | Creación de reserva -> OK
+2026-11-20 03:21:09,795 | INFO     | Reserva #9 confirmada
+2026-11-20 03:21:09,795 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:21:09,795 | INFO     | Reserva #9 procesada. Total: $314,160.00
+2026-11-20 03:21:09,795 | INFO     | Fin del intento de procesamiento de reserva #9
+2026-11-20 03:21:09,795 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:21:09,796 | ERROR    | Creación de reserva -> ServicioInvalidoError: Una sala se reserva entre 1 y 12 horas.
+2026-11-20 03:21:09,796 | INFO     | Creación de reserva -> OK
+2026-11-20 03:21:09,796 | ERROR    | Fallo al procesar reserva #11: La reserva debe estar CONFIRMADA para procesarse.
+2026-11-20 03:21:09,796 | INFO     | Fin del intento de procesamiento de reserva #11
+2026-11-20 03:21:09,796 | ERROR    | Procesamiento de reserva -> ReservaInvalidaError: No fue posible procesar la reserva #11. (causa: La reserva debe estar CONFIRMADA para procesarse.)
+2026-11-20 03:21:09,796 | INFO     | Creación de reserva -> OK
+2026-11-20 03:21:09,796 | INFO     | Reserva #12 confirmada
+2026-11-20 03:21:09,796 | INFO     | Confirmación de reserva -> OK
+2026-11-20 03:21:09,796 | INFO     | Reserva #12 procesada. Total: $385,560.00
+2026-11-20 03:21:09,796 | INFO     | Fin del intento de procesamiento de reserva #12
+2026-11-20 03:21:09,796 | INFO     | Procesamiento de reserva -> OK
+2026-11-20 03:21:09,796 | ERROR    | Creación de reserva -> ServicioNoDisponibleError: 'Alquiler Portátil' no está disponible.
+2026-11-20 03:21:09,797 | ERROR    | Cancelación de reserva -> OperacionNoPermitidaError: No se puede cancelar una reserva PROCESADA.
